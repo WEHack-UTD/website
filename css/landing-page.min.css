@@ -15,7 +15,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 h1,
@@ -75,7 +75,7 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 5rem;
   }
 }
 
@@ -97,16 +97,23 @@ header.masthead h1 {
 
 
 .tracksDiv{
-	padding-left: 300px;
-	padding-right: 300px;
-  padding-bottom: 100px;
-
-
+	padding-left: 10%;
+	padding-right: 10%;
+  padding-bottom: 50px;
 }
 
-.hardwareTrack{
-  position: relative;
-  margin-left:160px;
+.padding10 {
+  padding-left: 10%;
+	padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 img {
@@ -164,8 +171,8 @@ h2.header{
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .testimonials .testimonial-item {
@@ -241,9 +248,11 @@ footer.footer {
 }
 
 .venueDescription{
-  margin: 50px;
-  width: 400px;
-  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .venuePics{
